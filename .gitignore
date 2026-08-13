@@ -1,0 +1,50 @@
+# ===== Python (Penest-AI agents / scripts PoC) =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ===== Entornos y secretos =====
+.env
+*.env.local
+config.local.py
+secrets.py
+*.key
+*.pem
+
+# ===== Payloads / artefactos generados en pruebas =====
+*.exe
+*.bin
+payload_*
+shell_*.txt
+*.log
+capture_*.pcap
+loot/
+output/
+
+# ===== Netcat / sesiones de laboratorio =====
+nc_session_*.txt
+session_*.log
+
+# ===== Sistema operativo =====
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux/Kali
+.DS_Store
+*~
+
+# ===== Editores / IDEs =====
+.vscode/
+.idea/
+*.swp
+
+# ===== VirtualBox (si guardás config local) =====
+*.vbox-prev
