@@ -9,7 +9,7 @@ Este proyecto es exclusivamente para fines educativos y de investigación en seg
 Documentar y analizar técnicas de evasión utilizadas para bypassear controles de detección (EDR/AV/logging) durante ejercicios de Red Team autorizados.
 
 ## 🧪 Contenido
-- `evasion.html` 
+- `index.html` 
 
 ## 👤 Autor
 
