@@ -1043,9 +1043,3 @@ ncat --ssl --ssl-cert server.crt --ssl-key server.key -lv -p 443</code></pre>
 </body>
 
 </html>
-"@
-
-[System.IO.File]::WriteAllText($outPath, $html, [System.Text.Encoding]::UTF8)
-Write-Host "HTML generado exitosamente:"
-Write-Host $outPath
-(Get-Item $outPath).Length | ForEach-Object { Write-Host "Tamaño: $_ bytes" }
